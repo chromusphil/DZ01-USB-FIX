@@ -1,0 +1,14 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+
+	fragment@0 {
+		target = <&reg_usb1_vbus>;
+		__overlay__ {
+			gpio = <&pio 6 17 0>; /* PG17 */
+			regulator-always-on;
+			regulator-boot-on;
+		};
+	};
+};
