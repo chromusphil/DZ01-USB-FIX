@@ -25,6 +25,7 @@ cd DZ01-USB-FIX
 
 <h2>** Step 3 **</h2>
 Apply the overlay
+
 ```shell
 sudo armbian-add-overlay dz01-usb-regulator.dts
 ```
