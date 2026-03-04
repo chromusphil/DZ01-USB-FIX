@@ -19,7 +19,11 @@ This can be done either before uploading to the printer or once the printer.cfg 
 
 <img width="487" height="256" alt="image" src="https://github.com/user-attachments/assets/c2a5814a-3587-46f4-98a6-94052f316e8f" />
 
+
+
 Now right click printer.cfg and choose edit
+
+
 
 <img width="780" height="416" alt="image" src="https://github.com/user-attachments/assets/cf3f26ba-9bff-4f95-abd0-c62a0fe9d377" />
 
