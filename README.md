@@ -1,7 +1,7 @@
 # DZ01-USB-FIX
 Turns on the USB ports at boot on the Bigtreetech DZ01 board with Allwinner H616 Linux host. This fix was specifically engineered for the Delta Flyer 3d Printer but should apply to any user of the Bigtreetech Armbian image for this board.
 
-A special thanks to @cowboy6825 on discord who helped me when I couldn't fathom some of the finer points of the DTS file.
+A special thanks to www.github.com/adelyser (@cowboy6825 on discord) who helped me when I couldn't fathom some of the finer points of the DTS file.
 
 <h2>**This change involves adding a custom user overlay to the Linux build and requires a change to the printer.cfg supplied with Delta FLyer, do a backup of your configs.**</h2>
 
