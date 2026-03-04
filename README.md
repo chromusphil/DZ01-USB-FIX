@@ -14,6 +14,7 @@ Download the dz01-usb-regulator.dts file
 
 <h2>** Step 2 **</h2>
 Download the dts file and move to that directory
+
 ```shell
 cd ~ && git clone https://github.com/chromusphil/DZ01-USB-FIX.git
 ```
