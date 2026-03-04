@@ -50,7 +50,10 @@ Then add this just above the changes we made to remind you what you did and why
 ```shell
 ### This has been changed to be handled by a custom overlay from https://github.com/chromusphil/DZ01-USB-FIX ###
 ```
+<br>
+<img width="1106" height="162" alt="image" src="https://github.com/user-attachments/assets/f5ecd27e-a94a-489b-b10e-860da495023e" />
 
+<br>
 <h2>** Step 2 **</h2>
 Connect to the DZ01 using its IP address and the username/password of biqu/biqu
 Download the dz01-usb-regulator.dts file 
