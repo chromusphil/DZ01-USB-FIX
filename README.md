@@ -7,4 +7,10 @@ While doing the steps out of order will likely work you may suffer strange issue
 
 This guide assumes the printer is already operational but can be applied in the same order during the final software preparation stages.
 
-<u> ** Step 1 ** </u>
+** Step 1 **
+Connect to the DZ01 using its IP address and the username/password of biqu/biqu
+Download the dz01-usb-regulator.dts file 
+<img width="827" height="617" alt="image" src="https://github.com/user-attachments/assets/83de14af-551c-4782-8631-06ce634e541e" />
+
+```cd ~ && git clone https://github.com/chromusphil/DZ01-USB-FIX.git```
+
