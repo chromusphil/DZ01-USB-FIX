@@ -91,3 +91,5 @@ As the dialog states its time to **Power Cycle** the machine. (Full power cycle 
 ```shell
 sudo shutdown now
 ```
+
+<h2>Now power off the printer for 3 seconds and then power it on again</h2>
