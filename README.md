@@ -10,7 +10,7 @@ No, you <u>don't need to do this</u> fix unless you wish to use a USB powered to
 
 This guide assumes the printer is already operational but can be applied in the same order during the final software preparation stages.
 
-<h2>** Step 1 </h2>
+<h2>** Step 1 ** </h2>
 Modify your printer.cfg to stop klipper from trying to do a workaround to turn on the USB.
 
 This can be done either before uploading to the printer or once the printer.cfg is uploaded to your Mainsail interface.
