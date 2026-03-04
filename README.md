@@ -1,7 +1,7 @@
 # DZ01-USB-FIX
 Turns on the USB ports at boot on the Bigtreetech DZ01 board with Allwinner H616 Linux host. This fix was specifically engineered for the Delta Flyer 3d Printer but should apply to any user of the Bigtreetech Armbian image for this board
 
-<h2>**This change involved adding a custom user overlay to the Linux build and requires a change to the printer.cfg supplied with Delta FLyer.**</h2>
+<h2>**This change involves adding a custom user overlay to the Linux build and requires a change to the printer.cfg supplied with Delta FLyer, do a backup of your configs.**</h2>
 
 While doing the steps out of order will likely work you may suffer strange issues until all steps are completed, **do them in order to reduce frustration.**
 
@@ -14,6 +14,15 @@ This guide assumes the printer is already operational but can be applied in the 
 Modify your printer.cfg to stop klipper from trying to do a workaround to turn on the USB.
 
 This can be done either before uploading to the printer or once the printer.cfg is uploaded to your Mainsail interface.
+
+** If you already have a working printer.cfg right click it and choose Duplicate a dialog will appear, asking for a name to call the duplicate. I add .backup to the end of mine for ease.
+
+<img width="487" height="256" alt="image" src="https://github.com/user-attachments/assets/c2a5814a-3587-46f4-98a6-94052f316e8f" />
+
+Now right click printer.cfg and choose edit
+
+<img width="780" height="416" alt="image" src="https://github.com/user-attachments/assets/cf3f26ba-9bff-4f95-abd0-c62a0fe9d377" />
+
 
 I recommend simply # out the lines and addint a comment to that section
 
@@ -31,6 +40,7 @@ and change it to this (by adding the # to the beginning of each line)
 #pin: h616:gpio209  #PG17
 #value: 1
 ```
+Then add this just above the changes we made to remind you what you did and why
 
 ```shell
 ### This has been changed to be handled by a custom overlay from https://github.com/chromusphil/DZ01-USB-FIX ###
